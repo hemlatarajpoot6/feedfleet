@@ -26,7 +26,7 @@ const AccoundPlan = () => {
                                 <Grid container>
                                     <Grid xs={4} md={4}>
                                         <div className="apply-code">
-                                            <label for="fname" className="security-code">
+                                            <label for="apply" className="security-code">
                                                 Apply Promo Code
                                             </label>
                                         </div>
@@ -34,7 +34,7 @@ const AccoundPlan = () => {
                                     <Grid xs={4} md={4}>
                                         <div className="">
                                             <form>
-                                                <input type="password" id="fname" name="fname" placeholder="Enter" />
+                                                <input type="password" id="apply" name="apply" placeholder="Enter" />
                                             </form>
                                         </div>
                                     </Grid>
@@ -124,7 +124,7 @@ const AccoundPlan = () => {
                                                     variant="contained"
                                                     className='basic-Select'
                                                 >
-                                                  Select
+                                                    Select
                                                 </Button>
                                             </div>
                                         </div>
@@ -188,11 +188,11 @@ const AccoundPlan = () => {
                                                 <li className="light-color-li listing"><ClearIcon className="cross-icon" />Influencer Recruiting</li>
                                             </ul>
                                             <div>
-                                            <Button
+                                                <Button
                                                     variant="contained"
                                                     className='standard-Select'
                                                 >
-                                                  Select
+                                                    Select
                                                 </Button>
                                             </div>
                                         </div>
@@ -256,11 +256,11 @@ const AccoundPlan = () => {
                                                 <li className="light-color-li listing"><ClearIcon className="cross-icon" />Influencer Recruiting</li>
                                             </ul>
                                             <div>
-                                            <Button
+                                                <Button
                                                     variant="contained"
                                                     className='enterprices-Select'
                                                 >
-                                                  Select
+                                                    Select
                                                 </Button>
                                             </div>
                                         </div>
@@ -268,18 +268,18 @@ const AccoundPlan = () => {
                                 </Grid>
                                 <Grid container>
                                     <Grid xs={12} md={12}>
-                                    <div className="top-logo">
-                                        <Link to="/formfill" className="link">
-                                            <Button
+                                        <div className="top-logo">
+                                            <Link to="/formfill" className="link">
+                                                <Button
                                                     variant="contained"
                                                     className='Previous-Select'
                                                 >
-                                                  Previous
+                                                    Previous
                                                 </Button>
-                                                </Link>
-                                            </div>
-                                        </Grid>
-                                        </Grid>
+                                            </Link>
+                                        </div>
+                                    </Grid>
+                                </Grid>
                             </div>
 
                         </Grid>

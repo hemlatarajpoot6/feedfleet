@@ -61,20 +61,20 @@ const CreateAccount = () => {
                                             <p>Verification code has been resend to your email
                                                 nidhi.kusumakar@engineermaster.in. If not received please check your junk email.</p>
                                             <form>
-                                                <label for="fname" className="label">
+                                                <label for="security" className="label">
                                                     Security Code
                                                 </label>
-                                                <input type="text" id="fname" name="fname" placeholder="***********" />
+                                                <input type="text" id="security" name="security" placeholder="***********" />
                                                 <label for="lname" className="label">
                                                     Resend Code in 04:30
                                                 </label>
                                                 <div className="forgot-div">
+                                                <Link to="/formfill" className="signin-btn">
                                                     <Button
                                                         variant="contained"
                                                         className={classes.btnLogin}
-                                                    >
-                                                        <Link to="/formfill" className="signin-btn"> Verify Code</Link>
-                                                    </Button>
+                                                    > Verify Code</Button>
+                                                    </Link>
                                                     <p>Have Already Account ? <Link to="/" className="text-dark">
                                                         SignIn
                                                     </Link></p>

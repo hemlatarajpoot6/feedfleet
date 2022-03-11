@@ -7,6 +7,7 @@ import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternate
 import Grid from "@mui/material/Grid";
 import Logo from "../Components/Logo";
 import { Link } from "react-router-dom";
+// import AccountCircle from '@mui/icons-material/AccountCircle';
 
 
 const FormFill = () => {
@@ -36,57 +37,57 @@ const FormFill = () => {
                                                 <Stack direction="row" spacing={2} className="top-image">
                                                     <div className="top-image-avtar">
                                                         <label htmlFor="upload-company-logo">
-                                                                <Avatar src="/broken-image.jpg" sx={{ width: 150, height: 150 }} className="image-inner" />
-                                                                <div className="edit-image-circle">
-                                                                    <input accept="image/*" id="upload-company-logo" type='file' hidden />
-                                                                    <AddPhotoAlternateOutlinedIcon className="edit-image" />
-                                                                </div>
+                                                            <Avatar src="/broken-image.jpg" sx={{ width: 150, height: 150 }} className="image-inner" />
+                                                            <div className="edit-image-circle">
+                                                                <input accept="image/*" id="upload-company-logo" placeholder="dfvkljk" type='file' hidden />
+                                                                <AddPhotoAlternateOutlinedIcon className="edit-image" />
+                                                            </div>
                                                         </label>
                                                     </div>
                                                 </Stack>
                                                 <Grid container>
                                                     <Grid xs={6} md={6}>
-                                                    <div className="right-margin">
-                                                        <label for="date" className="label">
-                                                            Date Of Birth
-                                                        </label>
-                                                        <input type="text" id="date" name="dateofbirth" className="" placeholder="Enter" />
+                                                        <div className="right-margin">
+                                                            <label for="date" className="label">
+                                                                Date Of Birth
+                                                            </label>
+                                                            <input type="text" id="date" name="dateofbirth" className="" placeholder="Enter" />
                                                         </div>
                                                     </Grid>
                                                     <Grid xs={6} md={6}>
                                                         <div className="select-field">
-                                                        <label for="select" className="label">
-                                                            Select Gender
-                                                        </label>
-                                                        <select className="select-field" id="select">
-                                                            <option>Male</option>
-                                                            <option>Female</option>
-                                                            <option>Other</option>
-                                                        </select>
+                                                            <label for="select" className="label">
+                                                                Select Gender
+                                                            </label>
+                                                            <select className="select-field" id="select">
+                                                                <option>Male</option>
+                                                                <option>Female</option>
+                                                                <option>Other</option>
+                                                            </select>
                                                         </div>
                                                     </Grid>
                                                     <Grid xs={6} md={6}>
-                                                    <div className="right-margin">
-                                                        <label for="country" className="label">
-                                                            Country
-                                                        </label>
-                                                        <select className="right-margin" id="country" placeholder="Select name">
-                                                            <option>Select name</option>
-                                                            <option>India</option>
-                                                            <option>Usa</option>
-                                                        </select>
+                                                        <div className="right-margin">
+                                                            <label for="country" className="label">
+                                                                Country
+                                                            </label>
+                                                            <select className="right-margin" id="country" placeholder="Select name">
+                                                                <option>Select name</option>
+                                                                <option>India</option>
+                                                                <option>Usa</option>
+                                                            </select>
                                                         </div>
                                                     </Grid>
                                                     <Grid xs={6} md={6}>
-                                                    <div className="select-field">
-                                                        <label for="state" className="label">
-                                                            State
-                                                        </label>
-                                                        <select className="select-field" id="state" placeholder="Select name">
-                                                            <option>Select name</option>
-                                                            <option>Mp</option>
-                                                            <option>Up</option>
-                                                        </select>
+                                                        <div className="select-field">
+                                                            <label for="state" className="label">
+                                                                State
+                                                            </label>
+                                                            <select className="select-field" id="state" placeholder="Select name">
+                                                                <option>Select name</option>
+                                                                <option>Mp</option>
+                                                                <option>Up</option>
+                                                            </select>
                                                         </div>
                                                     </Grid>
                                                 </Grid>
@@ -113,7 +114,12 @@ const FormFill = () => {
                                                 <label for="contactno" className="label">
                                                     Contact no.
                                                 </label>
-                                                <input type="text" id="contactno" name="contactno" placeholder="Enter" />
+                                            {/* <div className="style">
+                                                    <AccountCircle />
+                                                    </div> */}
+                                                <input type="text" id="contactno" name="contactno"
+                                                 />
+                                            
                                                 <div className='textCenter'>
                                                     <Grid container>
                                                         <Grid xs={6} md={6}>
@@ -125,12 +131,14 @@ const FormFill = () => {
                                                             </Button>
                                                         </Grid>
                                                         <Grid xs={6} md={6}>
-                                                            <Button
-                                                                variant="contained"
-                                                                className='btnLogin next'
-                                                            >
-                                                                <Link to="/accountplan" className="signin-btn">Next</Link>
-                                                            </Button>
+                                                            <Link to="/accountplan" className="signin-btn">
+                                                                <Button
+                                                                    variant="contained"
+                                                                    className='btnLogin next'
+                                                                >
+                                                                    Next
+                                                                </Button>
+                                                            </Link>
                                                         </Grid>
                                                     </Grid>
                                                 </div>

@@ -51,7 +51,7 @@ const Login = () => {
       <div className="container login-container">
         <div>
           <Grid container>
-            <Grid xs={12} md={9}>
+            <Grid xs={12} sm={6} md={9} lg={9}>
               <div className="login-form-left">
                 <div className="logo-img">
                   <Logo />
@@ -60,31 +60,24 @@ const Login = () => {
                   <div className="input-field">
                     <div className="login-form-field">
                       <form>
-                        <label for="fname" className="label">
+                        <label for="email" className="label">
                          Email
                         </label>
-                        <input type="text" id="fname" name="fname" placeholder="Enter Your Email" />
-                        <label for="lname" className="label">
+                        <input type="text" id="email" name="email" placeholder="Enter Your Email" />
+                        <label for="password" className="label">
                        Password
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="Enter Your Password" />
+                        <input type="password" id="password" name="password" placeholder="Enter Your Password" />
                         <FormControlLabel
                           className={classes.root}
                           control={<Checkbox defaultChecked />}
                           label="Remember me"
                         />
                         <br />
-                        <Button
-                          variant="contained"
-                          className={classes.btnLogin}
-                        >
-                          <Link to="/createaccount" className="signin-btn">
-                          Signin
-                          </Link>
-                         
-                        </Button>
+                        <Link to="/createaccount" className="signin-btn">
+                        <Button variant="contained" className={classes.btnLogin}>Signin</Button>
+                        </Link>
                         <div className="forgot-div">
-                          {" "}
                           <Link to="/forgot" className="forgotpassword">
                             Forgot Password
                           </Link>
@@ -95,7 +88,7 @@ const Login = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={12} md={3}>
+            <Grid item xs={12} sm={6} md={3} lg={3}>
               <div className="login-form-right">
                 <div className="signup-link">
                   <div>

@@ -25,6 +25,7 @@ import Logo from "../Components/Logo";
 //   color: theme.palette.text.secondary,
 // }));
 const useStyles = makeStyles((theme) => ({
+  
   root: {
     padding: "0 25px",
   },
@@ -61,7 +62,7 @@ const Signup = () => {
       <div className="container login-container">
         <div>
           <Grid container>
-            <Grid xs={12} md={9}>
+            <Grid xs={12} sm={6} md={9} lg={9}>
               <div className="signup-form-left">
                 <div className="logo-img">
                   <Logo />
@@ -74,22 +75,22 @@ const Signup = () => {
                         Full Name
                         </label>
                         <input type="text" id="fname" name="fname" placeholder="Enter Your Full Name" />
-                        <label for="lname" className="label">
+                        <label for="email" className="label">
                         Email
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="Enter Your Email" />
-                        <label for="lname" className="label">
+                        <input type="text" id="email" name="email" placeholder="Enter Your Email" />
+                        <label for="cname" className="label">
                         Company Name
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="Enter Your Company Name" />
-                        <label for="lname" className="label">
+                        <input type="text" id="cname" name="cname" placeholder="Enter Your Company Name" />
+                        <label for="password" className="label">
                         Password
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="Enter Password" />
-                        <label for="lname" className="label">
+                        <input type="password" id="password" name="password" placeholder="Enter Password" />
+                        <label for="confirmpass" className="label">
                         Confirm Password
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="Confirm Password" />
+                        <input type="password" id="confirmpass" name="confirmpass" placeholder="Confirm Password" />
                         <FormControlLabel
                           className={classes.root}
                           control={<Checkbox defaultChecked />}
@@ -114,7 +115,7 @@ const Signup = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={12} md={3}>
+            <Grid item xs={12} sm={6} md={3} lg={3}>
               <div className="signup-form-right">
                 <div className="signup-link">
                   <div>

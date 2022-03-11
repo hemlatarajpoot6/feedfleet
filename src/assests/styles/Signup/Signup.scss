@@ -21,6 +21,7 @@
   // background-position: center;
   // background-repeat: no-repeat;
   background-color: #21638b;
+  overflow: hidden;
 }
 .circle {
   // position: absolute;
@@ -211,5 +212,28 @@ input[type="text"] {
   .circle {
     // position: absolute;
     display: none;
+  }
+}
+@media screen and (max-width:900px){
+  .systemdiv-signupimg{
+    width: 400px;
+    position: relative;
+    top: 33%;
+    right: 0;
+  }
+  .border-rights {
+    font-size: 47px !important;
+}
+.forgot-div{
+  margin-bottom: 45% !important;
+}
+}
+@media only screen and  (min-width: 769px) and (max-width: 1024px) {
+  .systemdiv-signupimg{
+    width: 561px;
+    position: relative;
+    right: 291px;
+    top: 9%;
+
   }
 }

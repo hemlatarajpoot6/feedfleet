@@ -78,10 +78,10 @@ const Forgot = () => {
                           Full Name
                         </label>
                         <input type="text" id="fname" name="fname" /> */}
-                        <label for="lname" className="label">
+                        <label for="email" className="label">
                           Email
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="Enter your mail id " />
+                        <input type="text" id="email" name="email" placeholder="Enter your mail id " />
                         {/* <label for="lname" className="label">
                           Company Name
                         </label>
@@ -102,7 +102,6 @@ const Forgot = () => {
                           Signup
                         </Button>
                         <div className="forgot-div">
-                          {" "}
                           <p className="forgotpassword">
                             By signing up, you are creating a Feedfleet account
                           </p>
@@ -119,7 +118,7 @@ const Forgot = () => {
                 <div className="signup-link">
                   <div>
                     <Link to="/" className="signup-linktext">
-                      SignIn{" "}
+                      SignIn
                     </Link>
                   </div>
                   <div>
@@ -136,16 +135,12 @@ const Forgot = () => {
             </Grid>
             <Grid item xs={12}>
               <div className="forgot-footer">
-                {/* {data && data.map((data,i)=>{ */}
-
                 {footerdata()}
-
-                {/* //    })} */}
               </div>
             </Grid>
           </Grid>
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 };

@@ -64,14 +64,14 @@ const Reset = () => {
 password.
                       </h4>
                       <form>
-                        <label for="fname" className="label">
+                        <label for="newpassword" className="label">
                         New Password
                         </label>
-                        <input type="text" id="fname" name="fname" placeholder="***********" />
-                        <label for="lname" className="label">
+                        <input type="password" id="newpassword" name="newpassword" placeholder="***********" />
+                        <label for="cpassword" className="label">
                         Confirm Password    
                         </label>
-                        <input type="text" id="lname" name="lname" placeholder="***********" />
+                        <input type="password" id="cpassword" name="cpassword" placeholder="***********" />
                     
                         <div className="forgot-div">
                         <Button
