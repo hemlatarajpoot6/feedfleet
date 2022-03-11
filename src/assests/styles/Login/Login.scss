@@ -177,6 +177,11 @@ input[type="text"] {
   text-align: center;
   text-decoration: none;
 }
+.signin-btn{
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+}
 .forgot-div {
   text-align: center;
   padding-top: 15px;
@@ -196,16 +201,16 @@ input[type="text"] {
 }
 .footer-name {
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   padding: 5px;
   // border-right: 2px solid #ffffff;
   color: #ffffff;
   padding-right: 10px;
 }
-.border{
+.borders{
   display: flex;
 }
-.border-right{
+.border-rights{
   margin: -10px 0px 0px 0px;
   color: #fff;
   padding: 4px 6px;

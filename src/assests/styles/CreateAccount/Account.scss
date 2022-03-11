@@ -1,0 +1,228 @@
+.formfill-right-img{
+    text-align: center;
+    padding-top: 100%;
+}
+.form-system-img{
+    width: 80%;
+}
+.textCenter{
+   text-align: center;
+   margin-bottom: 40px;
+}
+.btnLogin {
+    width: 70%;
+    margin-top: 39px !important;
+    padding: 14px 41px !important;
+    border-radius: 25px !important;
+}
+.logout{
+    background-color: #919293 !important;
+    font-size: 16px !important;
+}
+.next{
+    background-color: #21638B !important;
+    font-size: 16px !important;
+}
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 17px 0;
+    border-radius: 34px;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+    z-index: 2;
+  }
+  select option{
+      margin: 10px;
+  }
+  .right-margin{
+      margin-right: 10px;
+  }
+  .select-field{
+    margin-left: 10px;
+  }
+  .top-image{
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+  }
+  .top-image-avtar{
+      margin-bottom: 20px;
+  }
+  .edit-image{
+    position: absolute;
+    left: 44%;
+    top: 27%;
+    color: #5B5A5A;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #BFBFBF;
+  }
+  .text-right-form {
+    text-align: right;
+    writing-mode: vertical-lr;
+    margin: 0;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 60px;
+}
+.login-form-border {
+    background-color: #fff;
+    border-radius: 12px;
+    height: 100%;
+    position: relative;
+  }
+  .top-logo{
+      text-align: center;
+      padding: 20px 0px 5px 0px;
+  }
+  .Create{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #494949;
+  }
+  .container-form{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100%;
+  }
+  .apply-code{
+    float: right;
+    margin: 23px;
+    font-weight: 700;
+    color: #494949;
+  }
+  .apply-button{
+    margin: 17px !important;
+    padding: 5px 25px !important;
+    border-radius: 25px !important;
+    background-color: #21638B !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+  }
+  .monthly-btn{
+    width: 30%;
+    margin: 39px !important;
+    padding: 14px 41px !important;
+    border: none;
+    font-weight: 600;
+    color: #494949;
+  }
+  .monthly-btn:hover{
+    border: 1px solid grey;
+  }
+  .plan-background{
+      background-color: #474545;
+      margin: 10px;
+      text-align: center;
+      color: #fff;
+      padding-top: 7px;
+  }
+  ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .light-color-li{
+      background-color: #5C5C5C !important;
+  }
+  .listing{
+    padding: 20px 18px;
+  }
+  .tick-icon{
+    color: #1EFD77;
+    margin: 0px 10px -5px 0px;
+  }
+  .red-heading{
+    color: #FF7C7C;
+    font-weight: 700;
+  }
+  .cross-icon{
+      color: #FF3D54;
+      margin: 0px 10px -5px 0px;
+  }
+  .heading-color-li{
+    text-align: center;
+    padding: 10px;
+    background-color: #FF7C7C;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .dollor-sign{
+    color: #B94444;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .standard{
+    text-align: center;
+    padding: 10px;
+    background-color: #7CD8FF;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .standard-dollor-sign{
+    color: #10739D;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .enterprices{
+    text-align: center;
+    padding: 10px;
+    background-color: #FFA654;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .enterprices-dollor-sign{
+    color: #BF5E04;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .basic-Select{
+    width: 50%;
+    margin: 50px 20px !important;
+    padding: 14px 41px !important;
+    border-radius: 25px !important;
+    background-color: #FF7C7C !important;
+}
+.standard-Select{
+    width: 50%;
+    margin: 50px 20px !important;
+    padding: 14px 41px !important;
+    border-radius: 25px !important;
+    background-color: #7CD8FF !important;
+}
+.enterprices-Select{
+    width: 50%;
+    margin: 50px 20px !important;
+    padding: 14px 41px !important;
+    border-radius: 25px !important;
+    background-color: #FFA654 !important;
+}
+.Previous-Select{
+    
+    margin: 50px 20px !important;
+    padding: 14px 41px !important;
+    border-radius: 25px !important;
+    background-color: #21638B !important;
+}
+//   .dark-color-li{
+//     padding: 20px 0px;
+//     background-color: #5C5C5C !important;
+// }

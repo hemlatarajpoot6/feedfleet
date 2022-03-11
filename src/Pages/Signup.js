@@ -44,11 +44,11 @@ const Signup = () => {
     data.map((data, i) => (
       <div className="login-footercontent">
         <div className="image-div">
-          <img src={data.icon} style={{ width: "20px", height: "auto" }} />
+          <img src={data.icon} alt='img-icon' style={{ width: "20px", height: "auto" }} />
         </div>
-        <div className="border">
+        <div className="borders">
           <p className={`${data.name ? 'footer-name':''}`}>{data.name} </p>
-          <p className={`${data.border ? 'border-right':''}`}>{data.border}</p>
+          <p className={`${data.border ? 'border-rights':''}`}>{data.border}</p>
         </div>
       </div>
     ));

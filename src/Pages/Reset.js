@@ -1,20 +1,19 @@
 import React from "react";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
 import Systems from "../assests/images/Login/bothimg-login.png";
 import { makeStyles } from "@material-ui/core/styles";
 import { data } from "../Pages/LoginData";
-// import { ThemeProvider, makeStyles } from '@mui/styles';
 import Grid from "@mui/material/Grid";
 import Logo from "../Components/Logo";
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
+
+
+// const Item = styled(Paper)(({ theme }) => ({
+//   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+//   ...theme.typography.body2,
+//   padding: theme.spacing(1),
+//   textAlign: "center",
+//   color: theme.palette.text.secondary,
+// }));
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "0 25px",
@@ -35,11 +34,11 @@ const Reset = () => {
     data.map((data, i) => (
       <div className="login-footercontent">
         <div className="image-div">
-          <img src={data.icon} style={{ width: "20px", height: "auto" }} />
+          <img src={data.icon} alt='img-icon' style={{ width: "20px", height: "auto" }} />
         </div>
-        <div className="border">
+        <div className="borders">
           <p className={`${data.name ? 'footer-name':''}`}>{data.name} </p>
-          <p className={`${data.border ? 'border-right':''}`}>{data.border}</p>
+          <p className={`${data.border ? 'border-rights':''}`}>{data.border}</p>
         </div>
       </div>
     ));
