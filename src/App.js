@@ -9,12 +9,12 @@ import Reset from './Pages/Reset'
 import CreateAccount from './Pages/CreateAccount';
 import FormFill from './Pages/FormFill';
 import AccoundPlan from './Pages/AccountPlan';
+import Campaign from './Pages/Home/Campaign';
 function App() {
   return (
     <div >
    <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<Layout />}> */}
           <Route index element={<Login />} />
           <Route path="Signup" element={<Signup />} />
           <Route path="forgot" element={<Forgot />} />
@@ -22,10 +22,7 @@ function App() {
           <Route path="createaccount" element={<CreateAccount />} />
           <Route path="formfill" element={<FormFill />} />
           <Route path="accountplan" element={<AccoundPlan />} />
-          {/* 
-          <Route path="reset" element={<Reset />} />
-          <Route path="*" element={<NoPage />} /> */}
-        {/* </Route> */}
+          <Route path="home" element={<Campaign />} />
       </Routes>
     </BrowserRouter>
     </div>

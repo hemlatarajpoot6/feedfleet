@@ -19,7 +19,7 @@ const AccoundPlan = () => {
                             <div className="login-form-border">
                                 <div className='top-logo'>
                                     <img src={Logoimg} alt='' width={200} />
-                                    <h4 className="Create">
+                                    <h4 className="Creates">
                                         Create your free account today
                                     </h4>
                                 </div>
