@@ -8,6 +8,7 @@ import Sales from '../../assests/images/navbar/Vector-17.png'
 import newCampaign from '../../assests/images/navbar/Vector-9.png'
 import fleet from '../../assests/images/navbar/Vector-10.png'
 import Avatar from '@mui/material/Avatar';
+import { Link } from "react-router-dom";
 
 const Navbar =() =>{
 
@@ -32,11 +33,11 @@ const Navbar =() =>{
     const userdata = [
         {
             icon: newCampaign,
-            name: 'Create New Campaign',
+            name: <Link to='/home' className="link">Create New Campaign</Link>,
         },
         {
             icon: fleet,
-            name: 'Create Fleet Video',
+            name: <Link to='/createfleet' className="link">Create Fleet Video</Link>,
         }
     ]
 

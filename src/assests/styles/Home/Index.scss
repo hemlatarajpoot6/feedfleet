@@ -88,4 +88,80 @@
 .Prompt{
     display: flex;
     margin: 10px 0px 10px 0px;
+    justify-content: center;
+}
+.multiple-select{
+    width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  border-radius: 15px;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  outline: none;
+}
+.MuiInput-underline:before{
+    border-bottom: none !important;
+}
+.MuiInput-underline:after{
+    border-bottom: none !important;
+}
+.Campaign-fleet{
+    text-align: center;
+    background-color: #FAFAFA;
+    margin: 10px;
+    padding: 1px 20px 25px 20px;
+}
+.start-record-btn{
+    background-color: #EDC6C6 !important;
+    border-radius: 50% !important;
+    padding: 55px !important;
+    margin: 20px !important;
+    border: 1px solid grey!important;
+}
+.upolad-record-btn{
+    background-color: #C6E1ED !important;
+    border-radius: 50% !important;
+    padding: 55px !important;
+    margin: 20px !important;
+    color: #fff !important;
+    border: 1px solid grey!important;
+}
+.cloud-icon{
+    font-size: 60px !important;
+    color: #fff !important;
+}
+.start-record-btn:active{
+    background-color: #D08E8E !important;
+}
+.start-record-btn:focus{
+    background-color: #D08E8E !important;
+}
+.upolad-record-btn:active{
+    background-color: #5C7F8D !important;
+}
+.upolad-record-btn:focus{
+    background-color: #5C7F8D !important;
+}
+.video-content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px !important;
+    margin-top: 40px;
+}
+.Reload-btn{
+    width: 20% !important;
+    border-radius: 20px !important;
+    margin: 20px !important;
+    background-color: #8B2121 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+.Upload-btn{
+    width: 20% !important;
+    border-radius: 20px !important;
+    margin: 20px !important;
+    background-color: #5093B9 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
 }

@@ -1,5 +1,5 @@
-import { Card, Grid, Button } from "@material-ui/core";
-import React from "react";
+import { Card, Grid, Button, Select, MenuItem } from "@material-ui/core";
+import React, { useState } from "react";
 import Navbar from "../Navbar/Index";
 import Avatar from '@mui/material/Avatar';
 import banner from '../../assests/images/home/Rectangle 4016.png';
@@ -10,6 +10,12 @@ import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 
 const Campaign = () => {
+
+    const [selected, setSelected] = useState([]);
+
+    const handleValueChange = event => {
+        setSelected(event.target.value);
+    }
 
     return (
         <React.Fragment>
@@ -92,7 +98,22 @@ const Campaign = () => {
                             <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
                                 <h4>Lead Management</h4>
                                 <p>Extra Fields for Lead</p>
-                                <input type="text" placeholder="Enter Title Here" className="Campaign-text" />
+                                <Select
+                                className="multiple-select"
+                                    multiple={true}
+                                    value={selected}
+                                    placeholder="Enter"
+                                    onChange= {handleValueChange}
+                                        >
+                                    <MenuItem value={1}>Val - 1</MenuItem>
+                                    <MenuItem value={2}>Val - 2</MenuItem>
+                                    <MenuItem value={3}>Val - 3</MenuItem>
+                                    <MenuItem value={4}>Val - 4</MenuItem>
+                                </Select>
+
+
+
+                                {/* <input type="text" placeholder="Enter Title Here" className="Campaign-text" /> */}
                                 <p className="">Thank You Message </p>
                                 <textarea className="Campaign-text" placeholder="Enter Your Message Here" rows="7" cols="50" />
                                 <p>After Thank You Link</p>
