@@ -11,6 +11,7 @@ import FormFill from './Pages/FormFill';
 import AccoundPlan from './Pages/AccountPlan';
 import Campaign from './Pages/Home/Campaign';
 import CreateFleet from './Pages/Home/RecordFleet';
+import ThankYouPage from './Pages/Home/ThankuPage';
 function App() {
   return (
     <div >
@@ -24,7 +25,8 @@ function App() {
           <Route path="formfill" element={<FormFill />} />
           <Route path="accountplan" element={<AccoundPlan />} />
           <Route path="home" element={<Campaign />} />
-          <Route path="createfleet" element={<CreateFleet />} />
+          <Route path="/createfleet" element={<CreateFleet />} />
+          <Route path="/createfleet/thankupage" element={<ThankYouPage />} />
       </Routes>
     </BrowserRouter>
     </div>

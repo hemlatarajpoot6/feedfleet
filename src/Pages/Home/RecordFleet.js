@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Index";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import VideocamOutlinedIcon from "@mui/icons-material/VideocamOutlined";
 import VideoRecorder from "react-video-recorder";
+import { Link } from "react-router-dom";
 
 const CreateFleet = () => {
     const [cameraVisible, setCameraVisible] = useState(false);
@@ -129,12 +130,14 @@ const CreateFleet = () => {
                                             >
                                                Reload
                                             </Button>
+                                            <Link to='/createfleet/thankupage/v'>
                                             <Button
                                                 variant="contained"
                                                 className='Upload-btn'
                                             >
                                                Upload
                                             </Button>
+                                            </Link>
                                         </div>
                             </Grid>
                             </Grid>
